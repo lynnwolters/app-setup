@@ -1,0 +1,17 @@
+.transition-swup {
+    opacity: 1;
+    transition: 1s all ease-out;
+}
+
+html.is-animating .transition-swup {
+    opacity: 0;
+}
+
+.transition-move {
+    transform: translateY(0); 
+    transition: 1s all ease-out;
+}
+
+html.is-animating .transition-move {
+    transform: translateY(-100px);
+}
